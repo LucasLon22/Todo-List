@@ -42,7 +42,7 @@ function TodoList() {
 
     return (
         <>
-            <h1>What's the Plan for Today?</h1>
+            <h1 className='text-center mb-5 mt-5'>¿Qúe planes tiene para esta semana?</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo
                 todos={todos}
